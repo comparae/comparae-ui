@@ -11,7 +11,9 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "lint": "tsdx lint",
-    "test": "tsdx test --env=jsdom"
+    "test": "tsdx test --env=jsdom",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "peerDependencies": {
     "polished": ">=3",
@@ -28,6 +30,7 @@
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@types/styled-components": "^4.1.18",
+    "docz": "^2.0.0-rc.35",
     "husky": "^3.0.5",
     "polished": "^3.4.1",
     "prettier": "^1.18.2",
