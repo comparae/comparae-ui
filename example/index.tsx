@@ -6,7 +6,7 @@ import { Button } from '../.';
 const App = () => {
   return (
     <div>
-      <Button title="Click Here My Friend" />
+      <Button color="primary">Test</Button>
     </div>
   );
 };
