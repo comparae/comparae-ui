@@ -1,10 +1,18 @@
 import * as React from 'react';
 import { ThemeProvider } from 'styled-components';
+import { useColorMode } from 'theme-ui';
 
-import { Light } from '../theme';
+import { Dark, Light } from '../theme';
 
-const Wrapper = ({ children }: any) => (
-  <ThemeProvider theme={Light}>{children}</ThemeProvider>
-);
+const themes: any = {
+  dark: Dark,
+  light: Light,
+};
+
+const Wrapper = ({ children }: any) => {
+  const [colorMode] = useColorMode();
+
+  return <ThemeProvider theme={themes[colorMode]}>{children}</ThemeProvider>;
+};
 
 export default Wrapper;
