@@ -1,2 +1,2 @@
 export { Button } from './Button';
-export { color, DarkTheme, LightTheme } from './theme';
+export { color, Dark, Light } from './theme';

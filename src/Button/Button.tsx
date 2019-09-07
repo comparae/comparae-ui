@@ -69,9 +69,9 @@ export const Button: React.SFC<Props> = ({
 );
 
 const ButtonStyled = styled.button<StyledProps>`
-  background-color: #81c784;
+  background-color: ${(props) => darken(0.1, props.theme.primary)};
   border-radius: 4px;
-  border: 1px solid #81c784;
+  border: 1px solid ${(props) => darken(0.1, props.theme.primary)};
   color: #fff;
   display: flex;
   align-items: center;
@@ -90,18 +90,18 @@ const ButtonStyled = styled.button<StyledProps>`
   overflow: hidden;
 
   &:hover {
-    background-color: ${darken(0.05, '#81c784')};
-    border-color: ${darken(0.05, '#81c784')};
+    background-color: ${(props) => darken(0.05, props.theme.primary)};
+    border-color: ${(props) => darken(0.05, props.theme.primary)};
   }
 
   &:focus {
-    background-color: #81c784;
-    border-color: ${darken(0.1, '#81c784')};
+    background-color: ${(props) => darken(0.1, props.theme.primary)};
+    border-color: ${(props) => darken(0.1, props.theme.primary)};
   }
 
   &:active {
-    background-color: ${darken(0.1, '#81c784')};
-    border-color: ${darken(0.1, '#81c784')};
+    background-color: ${(props) => darken(0.1, props.theme.primary)};
+    border-color: ${(props) => darken(0.1, props.theme.primary)};
   }
 
   &:before {
@@ -114,7 +114,7 @@ const ButtonStyled = styled.button<StyledProps>`
     padding-top: 0;
     border-radius: 100%;
     opacity: 0.2;
-    background-color: ${darken(0.1, '#81c784')};
+    background-color: ${(props) => darken(0.1, props.theme.primary)};
     transform: translate(-50%, -50%);
   }
 
