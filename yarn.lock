@@ -6365,7 +6365,7 @@ gatsby-telemetry@^1.1.22:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-docz@2.0.0-rc.35:
+gatsby-theme-docz@2.0.0-rc.35, gatsby-theme-docz@^2.0.0-rc.35:
   version "2.0.0-rc.35"
   resolved "https://registry.yarnpkg.com/gatsby-theme-docz/-/gatsby-theme-docz-2.0.0-rc.35.tgz#f30b5451d8ecfca7df0eac8fc7ae07d631940da7"
   integrity sha512-a0TdA/uVio9ETjlbZOASHaHLfeOCBnhAlfPTmDsGKX0yvl/2r4nulRDpT7Iz/ksI4a6CFPlGoNtGQyxtlHsSLA==
@@ -6406,7 +6406,7 @@ gatsby-theme-docz@2.0.0-rc.35:
     typography-theme-moraga "^0.16.19"
     yargs "^13.3.0"
 
-gatsby@^2.13.27:
+gatsby@^2.13.27, gatsby@^2.15.9:
   version "2.15.9"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.15.9.tgz#a8a1ccf14cc7f0a20c1f18a7ded98c0996cd27ac"
   integrity sha512-c+QtdiMivZI6xQBWx/ClwqXhatqC5/bJjIWXVL5ik+PBsmoa1EsH8XA+FHZUVQsGN8pZ2kF+guEaSZ+a5ONy2g==
