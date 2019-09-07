@@ -69,9 +69,9 @@ export const Button: React.SFC<Props> = ({
 );
 
 const ButtonStyled = styled.button<StyledProps>`
-  background-color: ${(props) => darken(0.1, props.theme.primary)};
+  background-color: ${(props) => props.theme.primary};
   border-radius: 4px;
-  border: 1px solid ${(props) => darken(0.1, props.theme.primary)};
+  border: 1px solid ${(props) => props.theme.primary};
   color: #fff;
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ const ButtonStyled = styled.button<StyledProps>`
   }
 
   &:focus {
-    background-color: ${(props) => darken(0.1, props.theme.primary)};
+    background-color: ${(props) => props.theme.primary};
     border-color: ${(props) => darken(0.1, props.theme.primary)};
   }
 
