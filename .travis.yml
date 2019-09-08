@@ -8,10 +8,9 @@ jobs:
         - yarn test
     - stage: build
       name: Build
+      if: branch = master
       script:
         - yarn tsdx:build
-      on:
-        branch: master
 deploy:
   skip_cleanup: true
   provider: npm
