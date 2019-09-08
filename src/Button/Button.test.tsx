@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
-import 'jest-styled-components';
 
 import { Button } from './Button';
 import { Dark, Light } from '../theme';
@@ -15,7 +14,7 @@ describe('<Button />', () => {
     );
 
     expect(container.firstChild).toMatchSnapshot();
-    expect(container.firstChild).toHaveStyleRule('color', '#fff');
+    expect(container.firstChild).toHaveStyleRule('color', '#000');
   });
 
   it('renders with Light theme', () => {
