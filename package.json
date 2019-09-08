@@ -51,5 +51,10 @@
     "tsdx": "^0.9.1",
     "tslib": "^1.10.0",
     "typescript": "^3.6.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./src/setupTest.ts"
+    ]
   }
 }
