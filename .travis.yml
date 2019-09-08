@@ -1,11 +1,8 @@
 language: node_js
 jobs:
   include:
-    - stage: lint
-      name: 'Lint'
+    - stage: test
+      name: 'Lint/Test'
       script:
         - yarn lint
-    - stage: test
-      name: 'Test'
-      script:
         - yarn test
