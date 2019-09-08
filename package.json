@@ -12,9 +12,10 @@
     "build": "gatsby build",
     "gatsby:develop": "gatsby develop --open",
     "gatsby:serve": "gatsby serve",
-    "lint": "tsdx lint",
+    "lint": "tsdx lint src",
     "start": "yarn gatsby:develop",
     "test": "tsdx test --env=jsdom",
+    "test:watch": "yarn test --watch",
     "tsdx:build": "tsdx build",
     "tsdx:watch": "tsdx watch"
   },
@@ -29,6 +30,7 @@
     }
   },
   "devDependencies": {
+    "@testing-library/react": "^9.1.4",
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
@@ -39,6 +41,7 @@
     "gatsby-plugin-typescript": "^2.1.6",
     "gatsby-theme-docz": "^2.0.0-rc.35",
     "husky": "^3.0.5",
+    "jest-styled-components": "^6.3.3",
     "polished": "^3.4.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
