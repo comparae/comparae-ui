@@ -4,16 +4,19 @@
   "main": "dist/index.js",
   "module": "dist/comparae-ui.esm.js",
   "typings": "dist/index.d.ts",
+  "license": "MIT",
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "tsdx watch",
     "build": "tsdx build",
+    "gatsby:build": "gatsby build",
+    "gatsby:develop": "gatsby develop --open",
+    "gatsby:serve": "gatsby serve",
     "lint": "tsdx lint",
+    "start": "yarn gatsby:develop",
     "test": "tsdx test --env=jsdom",
-    "gatsby:dev": "gatsby develop",
-    "gatsby:build": "gatsby build"
+    "tsdx:watch": "tsdx watch"
   },
   "peerDependencies": {
     "polished": ">=3",
