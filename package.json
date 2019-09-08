@@ -9,13 +9,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdx build",
-    "gatsby:build": "gatsby build",
+    "build": "gatsby build",
     "gatsby:develop": "gatsby develop --open",
     "gatsby:serve": "gatsby serve",
     "lint": "tsdx lint",
     "start": "yarn gatsby:develop",
     "test": "tsdx test --env=jsdom",
+    "tsdx:build": "tsdx build",
     "tsdx:watch": "tsdx watch"
   },
   "peerDependencies": {
