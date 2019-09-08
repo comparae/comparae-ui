@@ -4,7 +4,4 @@ export default {
   source: './src/',
   title: 'Comparaê Styleguide',
   menu: ['General', 'Components'],
-  themeConfig: {
-    mode: 'dark',
-  },
 };
