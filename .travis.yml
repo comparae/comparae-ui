@@ -2,14 +2,10 @@ language: node_js
 jobs:
   include:
     - stage: test
-      name: Lint/Test
+      name: Lint/Test/Build
       script:
         - yarn lint
         - yarn test
-    - stage: build
-      name: Build
-      if: branch = master
-      script:
         - yarn tsdx:build
 deploy:
   skip_cleanup: true
