@@ -1,0 +1,8 @@
+### Gatsby / Docz ###
+.cache
+.rts2_cache_cjs
+.rts2_cache_esm
+.rts2_cache_umd
+.docz
+public
+node_modules/
