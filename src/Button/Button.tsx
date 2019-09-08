@@ -90,18 +90,23 @@ const ButtonStyled = styled.button<StyledProps>`
   overflow: hidden;
 
   &:hover {
-    background-color: ${(props) => darken(0.05, props.theme.primary)};
-    border-color: ${(props) => darken(0.05, props.theme.primary)};
+    background-color: ${(props) =>
+      props.theme.primary && darken(0.05, props.theme.primary)};
+    border-color: ${(props) =>
+      props.theme.primary && darken(0.05, props.theme.primary)};
   }
 
   &:focus {
     background-color: ${(props) => props.theme.primary};
-    border-color: ${(props) => darken(0.1, props.theme.primary)};
+    border-color: ${(props) =>
+      props.theme.primary && darken(0.1, props.theme.primary)};
   }
 
   &:active {
-    background-color: ${(props) => darken(0.1, props.theme.primary)};
-    border-color: ${(props) => darken(0.1, props.theme.primary)};
+    background-color: ${(props) =>
+      props.theme.primary && darken(0.1, props.theme.primary)};
+    border-color: ${(props) =>
+      props.theme.primary && darken(0.1, props.theme.primary)};
   }
 
   &:before {
@@ -114,7 +119,8 @@ const ButtonStyled = styled.button<StyledProps>`
     padding-top: 0;
     border-radius: 100%;
     opacity: 0.2;
-    background-color: ${(props) => darken(0.1, props.theme.primary)};
+    background-color: ${(props) =>
+      props.theme.primary && darken(0.1, props.theme.primary)};
     transform: translate(-50%, -50%);
   }
 
