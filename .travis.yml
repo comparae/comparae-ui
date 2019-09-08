@@ -2,11 +2,13 @@ language: node_js
 jobs:
   include:
     - stage: test
-      name: Lint/Test
+      name: Lint/Test/Build
       script:
         - yarn lint
         - yarn test
+        - yarn tsdx:build
 deploy:
+  skip_cleanup: true
   provider: npm
   email: contato@comparae.com.br
   api_key:
