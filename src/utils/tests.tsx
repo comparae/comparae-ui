@@ -11,7 +11,10 @@ const themes: any = {
 
 // this is a handy function that I would utilize for any component
 // that relies on the router being in context
-export function renderWithTheme(ui: any, theme: 'dark' | 'light') {
+export function renderWithTheme(
+  ui: React.ReactElement,
+  theme: 'dark' | 'light'
+) {
   return {
     ...render(<ThemeProvider theme={themes[theme]}>{ui}</ThemeProvider>),
   };
