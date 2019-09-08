@@ -6,25 +6,40 @@ This project was bootstrapped with [TSDX](https://github.com/palmerhq/tsdx)
 
 ## Commands
 
-TSDX scaffolds your new library inside `/src`, and also sets up a [Parcel-based](https://parceljs.org) playground for it inside `/example`.
+TSDX scaffolds your new library inside `/src`.
 
-The recommended workflow is to run TSDX in one terminal:
+The recommended workflow for development is to start Gatsby with:
 
 ```
 yarn start
 ```
 
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
-
-Then run the example inside another:
+This will run the Docz styleguide where you can develop components in isolation. For each component you must create a `README.mdx` file as follow:
 
 ```
-cd example
-yarn
-yarn start
-```
+---
+name: Button
+route: /button
+menu: Components
+---
 
-The default example imports and live reloads whatever is in `/dist`, so if you are seeing an out of date component, make sure TSDX is running in watch mode like we recommend above. **No symlinking required**, [we use Parcel's aliasing](https://github.com/palmerhq/tsdx/pull/88/files).
+import { Playground, Props } from 'docz';
+import { Button } from './Button.tsx';
+
+# Button
+
+Basic Button component
+
+## Usage
+
+<Playground>
+  <Button color="primary">Test</Button>
+</Playground>
+
+## Props
+
+<Props of={Button} />
+```
 
 To do a one-off build, use `yarn build`.
 
@@ -39,19 +54,22 @@ Jest tests are set up to run with `yarn test`. This runs the test watcher (Jest)
 This is the folder structure we set up for you:
 
 ```
-/example
-  index.html
-  index.tsx       # test your component here in a demo app
-  package.json
-  tsconfig.json
 /src
-  index.tsx       # EDIT THIS
-/test
-  blah.test.tsx   # EDIT THIS
+  /Button         # Basic component structure
+    Button.tsx
+    Button.test.tsx
+    index.ts
+    README.mdx
+  index.tsx
 .gitignore
+.prettierrc
+doczrc.js
+gatsby-config.js
+LICENSE.md
 package.json
-README.md         # EDIT THIS
+README.md
 tsconfig.json
+yarn.lock
 ```
 
 #### React Testing Library
@@ -69,10 +87,6 @@ TSDX uses [Rollup v1.x](https://rollupjs.org) as a bundler and generates multipl
 ## Continuous Integration
 
 ### Travis
-
-_to be completed_
-
-### Circle
 
 _to be completed_
 
@@ -104,9 +118,7 @@ Per Palmer Group guidelines, [always use named exports.](https://github.com/palm
 
 ## Including Styles
 
-There are many ways to ship styles, including with CSS-in-JS. TSDX has no opinion on this, configure how you like.
-
-For vanilla CSS, you can include it at the root directory and add it to the `files` section in your `package.json`, so that it can be imported separately by your users and run through their bundler's loader.
+Comparaê UI uses [styled-components](https://www.styled-components.com/) for styles.
 
 ## Publishing to NPM
 
