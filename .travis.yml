@@ -2,7 +2,15 @@ language: node_js
 jobs:
   include:
     - stage: test
-      name: 'Lint/Test'
+      name: Lint/Test
       script:
         - yarn lint
         - yarn test
+deploy:
+  provider: npm
+  email: contato@comparae.com.br
+  api_key:
+    secure: VAdHTzj49SCW+zmi9XJN+JabNN47wp/ijcHuwsnLLcSDAdUUftaAm/t1Z6NhDTsAlCDHrSEZyXSnrj3LOm27ABMS5mlPFepblGuAvUmYebyMqunak7lcXcStfApvx8Yo8Zycs9Uhl1LVzjtOt9RFf7hpMzGVmqoG9cyBhSfrPtHq6DiYHht4HOeZF48EprFFeLleJNsaxp59ybbqJj111bLJVDMV+UNnqomHLs84MnQQLf13JIPjjymOsB1a2tTj2c8Ed4AQ/mHz3cPsuwjNZjoOwQ982OcrzoFHU1IdUcJbmIK+C3IFbyhwfwCL2s4fbP0vdKvQ2FnxWgGbboIFNXBAfUjXD+GM+hWTUWBy+2RXdZHrcvHKRicK1wmV12yg6QdK6Xm8re0oI2Re3YM+9w3558ke/cqGblN7gqfSmNvAXaRqiU+cXd6KrkQU60v5yDxR6jQpuY5LJlVxuYuqFYoqrA3YMlcq+Bx5Z245BBMmlUYuFkvvlGsyihMTt9gZfsCSsap0CfhECiHfayjGZH+o5rksz7zv3ojqmvOpDEua9mk5MO6vOPumYIlgNnV2VKXTheHT4HIHw822a1HZ+BFIaC3liBmDCoxbQi/92bvaeP9KP4sGknjdxaQ1EYcIIIxP73Worzr+nZdPawnRfslQP+WuBVMujagWaBzzCT4=
+  on:
+    tags: true
+    repo: comparae/comparae-ui
