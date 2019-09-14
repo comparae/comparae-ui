@@ -2,11 +2,11 @@ import * as React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { useColorMode } from 'theme-ui';
 
-import { Dark, Light } from '../theme';
+import { DarkTheme, LightTheme } from '../theme';
 
 const themes: any = {
-  dark: Dark,
-  light: Light,
+  dark: DarkTheme,
+  light: LightTheme,
 };
 
 const Wrapper = ({ children }: any) => {
