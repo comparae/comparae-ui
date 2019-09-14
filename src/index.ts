@@ -1,2 +1,3 @@
+export { DefaultTheme } from 'styled-components';
 export { Button } from './Button';
-export { color, Dark, Light } from './theme';
+export { colors, DarkTheme, LightTheme } from './theme';

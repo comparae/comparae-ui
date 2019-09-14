@@ -1,3 +1,3 @@
-export { Dark } from './Dark';
-export { Light } from './Light';
-export { color } from './color';
+export { DarkTheme } from './DarkTheme';
+export { LightTheme } from './LightTheme';
+export { colors } from './colors';
