@@ -1,9 +1,10 @@
 ## What is the content type?
 
-- [ ] New Feature
 - [ ] Bug Fix
-- [ ] Enhancement
 - [ ] Documentation
+- [ ] Enhancement
+- [ ] New Feature
+- [ ] Release
 - [ ] Underlying Tools
 
 ## Why is necessary?
