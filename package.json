@@ -34,11 +34,11 @@
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
-    "@types/styled-components": "^4.1.18",
+    "@types/styled-components": "^4.1.19",
     "@types/theme-ui": "^0.2.2",
     "docz": "^2.0.0-rc.35",
-    "gatsby": "^2.15.9",
-    "gatsby-plugin-typescript": "^2.1.6",
+    "gatsby": "^2.15.15",
+    "gatsby-plugin-typescript": "^2.1.7",
     "gatsby-theme-docz": "^2.0.0-rc.35",
     "husky": "^3.0.5",
     "jest-styled-components": "^6.3.3",
@@ -48,9 +48,9 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "styled-components": "^4.3.2",
-    "tsdx": "^0.9.1",
+    "tsdx": "^0.9.2",
     "tslib": "^1.10.0",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.3"
   },
   "jest": {
     "setupFilesAfterEnv": [
