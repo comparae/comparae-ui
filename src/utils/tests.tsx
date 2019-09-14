@@ -2,11 +2,11 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
-import { Dark, Light } from '../theme';
+import { DarkTheme, LightTheme } from '../theme';
 
 const themes: any = {
-  dark: Dark,
-  light: Light,
+  dark: DarkTheme,
+  light: LightTheme,
 };
 
 // this is a handy function that I would utilize for any component
