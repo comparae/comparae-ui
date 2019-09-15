@@ -122,4 +122,4 @@ Comparaê UI uses [styled-components](https://www.styled-components.com/) for st
 
 ## Publishing to NPM
 
-We recommend using https://github.com/sindresorhus/np.
+We use Travis CI to publish to NPM.
