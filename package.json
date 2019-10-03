@@ -42,7 +42,7 @@
     "gatsby-plugin-styled-components": "^3.1.8",
     "gatsby-plugin-typescript": "^2.1.11",
     "gatsby-theme-docz": "^2.0.0-rc.35",
-    "husky": "^3.0.5",
+    "husky": "^3.0.8",
     "jest-styled-components": "^6.3.3",
     "polished": "^3.4.1",
     "prettier": "^1.18.2",
