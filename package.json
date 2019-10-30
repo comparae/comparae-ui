@@ -44,7 +44,7 @@
     "gatsby-theme-docz": "^2.0.0-rc.65",
     "husky": "^3.0.9",
     "jest-styled-components": "^6.3.3",
-    "polished": "^3.4.1",
+    "polished": "^3.4.2",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.0",
     "react": "^16.11.0",
