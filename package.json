@@ -52,7 +52,7 @@
     "styled-components": "^4.4.1",
     "tsdx": "0.11.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.2"
   },
   "jest": {
     "setupFilesAfterEnv": [
