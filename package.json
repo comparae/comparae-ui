@@ -49,7 +49,7 @@
     "pretty-quick": "^2.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "styled-components": "^4.4.0",
+    "styled-components": "^4.4.1",
     "tsdx": "0.11.0",
     "tslib": "^1.10.0",
     "typescript": "^3.6.4"
