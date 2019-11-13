@@ -34,7 +34,7 @@
     "@types/jest": "^24.0.21",
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
-    "@types/styled-components": "^4.1.20",
+    "@types/styled-components": "^4.4.0",
     "@types/theme-ui": "^0.2.4",
     "babel-plugin-styled-components": "^1.10.6",
     "docz": "^2.0.0-rc.65",
@@ -46,13 +46,13 @@
     "jest-styled-components": "^6.3.3",
     "polished": "^3.4.2",
     "prettier": "^1.18.2",
-    "pretty-quick": "^2.0.0",
+    "pretty-quick": "^2.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1",
     "tsdx": "0.11.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.2"
   },
   "jest": {
     "setupFilesAfterEnv": [
