@@ -43,7 +43,7 @@
     "gatsby-plugin-typescript": "^2.1.15",
     "gatsby-theme-docz": "^2.0.0-rc.67",
     "husky": "^3.0.9",
-    "jest-styled-components": "^6.3.3",
+    "jest-styled-components": "^6.3.4",
     "polished": "^3.4.2",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.1",
