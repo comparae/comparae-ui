@@ -6725,7 +6725,7 @@ gatsby-telemetry@^1.1.37:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-docz@2.0.0-rc.75, gatsby-theme-docz@^2.0.0-rc.67:
+gatsby-theme-docz@2.0.0-rc.75, gatsby-theme-docz@^2.0.0-rc.75:
   version "2.0.0-rc.75"
   resolved "https://registry.yarnpkg.com/gatsby-theme-docz/-/gatsby-theme-docz-2.0.0-rc.75.tgz#e96163a49147a5c00dbf75a401f9a4f2a97877c2"
   integrity sha512-f/6g1QqCvoMjtKcMvEuiFVaqA44rE1SONxzgMZOQE6VVvY1yzs8BLdPtUZf3PGtEYK3R39bVsNRmZyEtTUXhRQ==
