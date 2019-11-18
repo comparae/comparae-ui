@@ -41,7 +41,7 @@
     "gatsby": "^2.17.16",
     "gatsby-plugin-styled-components": "^3.1.13",
     "gatsby-plugin-typescript": "^2.1.18",
-    "gatsby-theme-docz": "^2.0.0-rc.67",
+    "gatsby-theme-docz": "^2.0.0-rc.75",
     "husky": "^3.1.0",
     "jest-styled-components": "^6.3.4",
     "polished": "^3.4.2",
