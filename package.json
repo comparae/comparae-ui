@@ -38,7 +38,7 @@
     "@types/theme-ui": "^0.2.4",
     "babel-plugin-styled-components": "^1.10.6",
     "docz": "^2.0.0-rc.75",
-    "gatsby": "^2.17.17",
+    "gatsby": "^2.18.0",
     "gatsby-plugin-styled-components": "^3.1.13",
     "gatsby-plugin-typescript": "^2.1.18",
     "gatsby-theme-docz": "^2.0.0-rc.75",
