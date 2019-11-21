@@ -40,7 +40,7 @@
     "docz": "^2.0.0-rc.75",
     "gatsby": "^2.17.17",
     "gatsby-plugin-styled-components": "^3.1.13",
-    "gatsby-plugin-typescript": "^2.1.18",
+    "gatsby-plugin-typescript": "^2.1.19",
     "gatsby-theme-docz": "^2.0.0-rc.75",
     "husky": "^3.1.0",
     "jest-styled-components": "^6.3.4",
