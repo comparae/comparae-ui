@@ -39,7 +39,7 @@
     "babel-plugin-styled-components": "^1.10.6",
     "docz": "^2.0.0-rc.75",
     "gatsby": "^2.18.6",
-    "gatsby-plugin-styled-components": "^3.1.14",
+    "gatsby-plugin-styled-components": "^3.1.16",
     "gatsby-plugin-typescript": "^2.1.20",
     "gatsby-theme-docz": "^2.0.0-rc.75",
     "husky": "^3.1.0",
