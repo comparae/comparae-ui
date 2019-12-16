@@ -35,7 +35,7 @@
     "@types/react": "^16.9.15",
     "@types/react-dom": "^16.9.4",
     "@types/styled-components": "^4.4.0",
-    "@types/theme-ui": "^0.2.5",
+    "@types/theme-ui": "^0.2.6",
     "babel-plugin-styled-components": "^1.10.6",
     "docz": "^2.0.0-rc.75",
     "gatsby": "^2.18.6",
